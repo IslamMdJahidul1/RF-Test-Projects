@@ -75,3 +75,18 @@ Through this project, I gained practical experience in:
 * Frequency-domain simulation
 * Transmission and reflection behavior
 * RF circuit troubleshooting using Qucs-S
+
+Return Loss and Reflection Analysis
+
+The S11 parameter was analyzed to study input reflection behavior across frequency.
+
+Observations:
+
+Lower frequencies showed lower reflection
+Reflection increased at higher frequencies
+This confirms low-pass filter behavior and impedance mismatch at higher frequencies
+
+Key Learning:
+
+S11 represents reflected signal power at the input port
+Increasing S11 indicates worsening impedance matching
