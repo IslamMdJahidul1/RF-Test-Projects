@@ -65,3 +65,13 @@ During this project, several practical simulation issues were debugged and resol
 ### Simulation Graph
 
 ![Graph](rf_filter_graph.png)
+
+## Learning Outcome
+
+Through this project, I gained practical experience in:
+
+* RF filter design fundamentals
+* S-parameter interpretation
+* Frequency-domain simulation
+* Transmission and reflection behavior
+* RF circuit troubleshooting using Qucs-S
