@@ -105,9 +105,14 @@ Used to analyze reflection and impedance behavior.
 ---
 
 ## Project Screenshots
+### Transmission Analysis
+![Transmission Analysis](rf_filter_graph.png)
 
-### Basic RF Filter
-![Basic Filter](basic_filter.png)
+### Return Loss Analysis
+![Return Loss](s11_return_loss_analysis.png)
 
 ### Higher-Order Filter
 ![Higher Order Filter](higher_order_filter.png)
+
+### Practical Component Analysis
+![Practical Components](practical_component_graph.png)
