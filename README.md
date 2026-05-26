@@ -1,10 +1,10 @@
-# RF Filter Characterization and S-Parameter Analysis Using Qucs-S
+# RF Low-Pass Filter Characterization Using Qucs-S
 
 ## Overview
 
-This project demonstrates the design and simulation of a basic RF low-pass filter using Qucs-S and S-parameter analysis.
+This project demonstrates the design and simulation of RF low-pass filters using Qucs-S and S-parameter analysis.
 
-The objective was to study RF transmission behavior across frequency and understand filter response characteristics.
+The project was expanded from a basic LC filter into a higher-order practical RF filter analysis project including Smith chart interpretation and practical component modeling.
 
 ---
 
@@ -13,65 +13,101 @@ The objective was to study RF transmission behavior across frequency and underst
 * Qucs-S
 * Qucsator
 * S-Parameter Simulation
+* Smith Chart Analysis
 
 ---
 
-## Circuit Parameters
+## Basic Filter Design
+
+The initial design used a simple LC low-pass filter configuration.
+
+### Circuit Parameters
 
 * Inductor: 3.3 nH
 * Capacitor: 1 pF
 * Port Impedance: 50 Ω
 * Frequency Sweep: 1 GHz to 4 GHz
 
----
+### Objectives
 
-## Simulation Results
-
-The simulation demonstrated low-pass filter behavior:
-
-* Lower frequencies passed through the circuit
-* Higher frequencies experienced attenuation
-* S21 response changed across the frequency sweep
+* Study RF transmission behavior
+* Analyze S-parameters
+* Observe low-pass filtering response
 
 ---
 
-## Engineering Skills Demonstrated
+## Higher-Order Filter Design
 
-* RF circuit simulation
-* S-parameter characterization
-* Frequency-domain analysis
-* RF troubleshooting and debugging
-* Qucs-S workflow understanding
+The project was extended into a multi-stage higher-order low-pass filter.
+
+### Implemented Features
+
+* Two-stage LC filter
+* Improved frequency selectivity
+* Sharper attenuation response
+* Multi-stage RF filtering
 
 ---
 
-## Challenges Solved
+## Smith Chart Analysis
 
-During this project, several practical simulation issues were debugged and resolved:
+Smith chart analysis was performed using S11 data to observe impedance behavior and RF matching characteristics across frequency.
 
-* Dataset generation issues
-* S-parameter plotting problems
-* Graph visualization troubleshooting
-* Simulator configuration issues
+### Observations
+
+* Frequency-dependent impedance variation
+* Reflection behavior changes
+* RF matching characteristics
+
+---
+
+## Practical vs Ideal Components
+
+Real-world component behavior was analyzed by introducing series resistance into the inductors.
+
+### Practical Component Modeling
+
+* Added 1 Ω series resistance
+* Observed insertion-loss degradation
+* Compared ideal and non-ideal RF behavior
+
+### Key Observation
+
+Practical RF components introduce:
+* insertion loss
+* conductor loss
+* non-ideal transmission behavior
+
+---
+
+## S-Parameter Analysis
+
+### S21
+
+Used to analyze transmission response across frequency.
+
+### S11
+
+Used to analyze reflection and impedance behavior.
+
+---
+
+## Key Learning Outcomes
+
+* Understanding RF transmission behavior
+* Performing S-parameter analysis
+* Interpreting Smith charts
+* Designing higher-order RF filters
+* Comparing ideal and practical RF components
+* Observing insertion-loss behavior
+* Understanding RF impedance characteristics
 
 ---
 
 ## Project Screenshots
 
-### RF Filter Circuit
+### Basic RF Filter
+![Basic Filter](basic_filter.png)
 
-![Circuit](rf_filter_circuit.png)
-
-### Simulation Graph
-
-![Graph](rf_filter_graph.png)
-
-## Learning Outcome
-
-Through this project, I gained practical experience in:
-
-* RF filter design fundamentals
-* S-parameter interpretation
-* Frequency-domain simulation
-* Transmission and reflection behavior
-* RF circuit troubleshooting using Qucs-S
+### Higher-Order Filter
+![Higher Order Filter](higher_order_filter.png)
