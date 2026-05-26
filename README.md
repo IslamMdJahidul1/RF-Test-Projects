@@ -1,4 +1,4 @@
-# RF Low-Pass Filter Characterization Using Qucs-S
+# RF Filter Characterization and S-Parameter Analysis Using Qucs-S
 
 ## Overview
 
